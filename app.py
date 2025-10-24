@@ -59,7 +59,7 @@ if story:
     
     # Confirmation dialog
     if st.session_state.show_confirm:
-        st.warning("⚠️ Are you sure you want to delete this story? This action cannot be undone.")
+        st.warning("This action cannot be undone.")
         col1, col2 = st.columns(2)
         
         with col1:
